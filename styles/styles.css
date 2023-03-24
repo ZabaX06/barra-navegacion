@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 10px 0px;
+    background-repeat: no-repeat;
+    background-color: rgba(226, 43, 226, 0.377);
+    background-position: center;
+
+}
+.header{
+    background: #ad16add2;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0px 20px;
+    color: black;
+}
+.nav-menu{
+    display: flex;
+   margin-right: 50px;
+   list-style: none;
+}
+.manu-items{
+    padding: 10px;
+    line-height: 80px;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: max-content;
+}
